@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout' 
 import Navbar from '../components/navbar'
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link'
 
 
 export default function Home({ token }) {
@@ -10,26 +10,30 @@ export default function Home({ token }) {
   return (
     <Layout>
     <Head>
-        <title>First Page</title>
+        <title>Cat Page</title>
     </Head>
     <div>
         <Navbar />
-        <h1 className="head">MEOW-CLUB โลก ของ แมว</h1>
+        <h1 className="head">Popular Cat</h1>
         <div className="cat">
-        <img src="https://i.pinimg.com/originals/3d/bf/88/3dbf885dfdf81b4082a21996ec9cb0fa.jpg" alt="Lamp" width="500" height="850"></img>
-        <h5 className="message1">4 Most Popular Cat Breeds for Feline Lovers
+        <center>  <img src="https://i.pinimg.com/originals/3d/bf/88/3dbf885dfdf81b4082a21996ec9cb0fa.jpg" alt="Lamp" width="500" height="850"></img>    </center>
+        <h2 className="message1">4 Most Popular Cat Breeds for Feline Lovers
           <br/>
            <br/>
-           ▪ Siamese
+           ▪<Link href="/Siamese"><a> Siamese </a></Link> 
+           
            
            <br/>
-            ▪ Persian
+           ▪<Link href="/Persian"><a> Persian </a></Link> 
+           
             <br/>
-            ▪ Maine Coon
-            <br/>
-            ▪ Ragdoll
+            ▪<Link href="/MaineCoon"><a> Maine Coon </a></Link> 
             
-            </h5>
+            <br/>
+            ▪<Link href="/Ragdoll"><a> Ragdoll </a></Link> 
+           
+            
+            </h2>
         </div>
         
         

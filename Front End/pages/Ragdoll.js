@@ -14,9 +14,9 @@ export default function Home({ token }) {
     </Head>
     <div>
         <Navbar />
-        <h1 className="head">Ragdoll Cat: Cat Breed Profile</h1>
+        <center> <h1 className="head">Ragdoll Cat: Cat Breed Profile</h1></center> 
         <div className="cat">
-        <img src="https://www.thesprucepets.com/thmb/rZIFSb2yuEVPDKzqs_YTb7mDvds=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ragdoll-cat-lying-down--portrait-579000275-5c868f0146e0fb00015f8fbf.jpg" alt="Lamp" width="500" height="850"></img>
+        <center> <img src="https://www.thesprucepets.com/thmb/rZIFSb2yuEVPDKzqs_YTb7mDvds=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/ragdoll-cat-lying-down--portrait-579000275-5c868f0146e0fb00015f8fbf.jpg" alt="Lamp" width="500" height="850"></img></center> 
         <h5 className="message1">If you’re looking for a large, affectionate cat that can go with the flow, look no further than the Ragdoll cat. These cats simply go limp with pleasure when they’re being petted, giving them their name. This cat breed is one of the largest out there, but don’t let that intimidate you. Their big blue eyes and loud, throaty purr let you know that these cats are just big softies. This cat is notoriously social, making them a good fit for bustling homes with plenty of activity.
 <br/>
            <br/>
