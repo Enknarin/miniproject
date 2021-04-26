@@ -33,6 +33,8 @@ export default function Home({ token }) {
             ▪ EYE COLOR: Green, gold, green-cold, or copper
             <br/>
             ▪ LIFE EXPECTANCY: 9 to 15 years
+            <br/>
+            ▪ LIFE EXPECTANCY: 9 to 15 years
             
             </h5>
         </div>
