@@ -10,11 +10,11 @@ export default function Home({ token }) {
   return (
     <Layout>
     <Head>
-        <title>First Page</title>
+        <title>MEOW-CLUB</title>
     </Head>
     <div>
         <Navbar />
-        <h1 className="head">เคล็ดลับ การเลี้ยงแมว แมวเปอร์เซีย แมว ไทย ของ คนรักแมว</h1>
+        <h1 className="head">MEOW-CLUB</h1>
         <div className="cat">
         <img src="https://www.thesprucepets.com/thmb/bgNR8imKQ3XhKeT9Y24pmvKCbNg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1185181003-b2f9c48e81304d10b93f55be4090d788.jpg" 
         alt="Lamp" width="800" height="550"></img>
