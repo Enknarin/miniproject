@@ -23,12 +23,14 @@ export default function Logout({ token }) {
     return (
         <Layout>
             <Head>
-                <title>User profile</title>
+                <title>logout</title>
             </Head>
             <Navbar />
+            
             <div className="lu">
             <div className="lu1">
-                <h1 >Logout
+              <div className="lu2"> Logout</div>
+               <h1 >
                     <br/>
                     ขอบคุณสำหรับการเข้าชมนะครับ
                 </h1>

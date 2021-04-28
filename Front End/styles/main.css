@@ -51,9 +51,10 @@ a.active,a:hover{
     color:#8FBC8F	;
     text-align: center;
     margin-top: 10px;
-    
+    font-size: 200px;
 
 }
+
 .cat{
     margin-top: 60px;
     margin-left: 300px;
@@ -74,6 +75,16 @@ font-size: 16px;
 }
 .b{
     background:url('http://static1.squarespace.com/static/5ec67e952aa5c333297be103/5ecd27b90d634c6b2abe1fb8/5f2ec5729fa85c6a22c271a7/1596901195042/The-Kitten-Checklist-1.png?format=1500w') no-repeat; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh 
+}
+.b1{
+    background:url('https://shortrecap.co/wp-content/uploads/2020/05/Catcover_web.jpg') no-repeat; 
     align-items: center;
     justify-content: center;
     display: flex;
@@ -154,7 +165,7 @@ margin-top: 30px;
 
 }
 .lu{
-    background: url('https://www.catdeva.com/data/wb/pic/l/640400000063.jpeg') no-repeat;
+    background: url('https://img.kapook.com/u/2016/pree/23-6-59/q4_7.jpg') no-repeat;
     -webkit-background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -166,9 +177,24 @@ margin-top: 30px;
 
 }
 .lu1{
+  
+    display: block;
+    margin: auto;
+    color:#3006f0	;
     text-align: center;
-    color: #13025c;
-    margin-top: 200px;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+.lu2{
+  
+    display: block;
+    margin: auto;
+    color:#3006f0	;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 200px;
+
 }
 .in{
     background:#10b98f ;

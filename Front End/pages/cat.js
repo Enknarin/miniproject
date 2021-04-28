@@ -17,7 +17,7 @@ export default function Home({ token }) {
     <div>
         <h1 className="ce1">Popular Cat</h1>
         <div className="cat">
-        <center className="ca">  <img src="https://i.pinimg.com/originals/3d/bf/88/3dbf885dfdf81b4082a21996ec9cb0fa.jpg" alt="Lamp" width="500" height="850" ></img>    </center>
+        <center className="ca">  <img src="https://i0.wp.com/shopee.co.th/blog/wp-content/uploads/2020/05/%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%E0%B9%81%E0%B8%A1%E0%B8%A7.jpg?resize=1280%2C720&ssl=1" alt="Lamp" width="1500" height="850" ></img>    </center>
         <h2 className="ce2">4 Most Popular Cat Breeds for Feline Lovers </h2>
         <div className="ce3"> 
            <br/>
@@ -27,7 +27,7 @@ export default function Home({ token }) {
             <br/>
             ▪<Link href="/MaineCoon"><a> Maine Coon </a></Link> 
             <br/>
-            ▪<Link href="/Ragdoll"><a> Ragdoll </a></Link>     
+            ▪<Link href="/Bengal"><a> Bengal </a></Link>     
         </div>
         <div className="button">
          <a href="./cat.js">Contact</a> 

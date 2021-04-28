@@ -19,7 +19,8 @@ export default function Home({ token }) {
        
         <center> <h1 className="s1">Maine Coon Cat: Cat Breed Profile</h1> </center> 
         <div className="cat">
-        <center> <img src="https://www.thesprucepets.com/thmb/yj87GEf0ovZYNaaK4E_MEfq7-bg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Brother-SisterMaineCoon_Nina-Pearman2122x1415-56a112a83df78cafdaa926f5.jpg" alt="Lamp" width="500" height="850"></img>
+        <center> <img src="https://www.thailandexhibition.com/images/Admin-talks/articles/5f0bde906b044/images/%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%80%E0%B8%A1%E0%B8%99%E0%B8%84%E0%B8%B9%E0%B8%99-9.jpg" 
+        alt="Lamp" width="1500" height="850"></img>
         </center> <h5 className="message1">The Maine coon cat is a natural breed and one of the largest of domesticated cats. Its body is medium to large, muscular, and broad-chested, with a well-balanced rectangular appearance. The Maine coon's coat is heavy and shaggy, but shorter on the shoulders and longer on the britches and stomach. It sports a handsome front ruff, ear tufts, foot tufts, and a long flowing tail. Equally at home with children, dogs, or older persons, the Maine coon cat is an ideal pet, handily earning its status as the third most popular breed in America, and the nickname "gentle giant."
 
 <br/>
