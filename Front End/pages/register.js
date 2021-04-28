@@ -77,9 +77,12 @@ export default function Register({ token }) {
             <Head>
                 <title>Register</title>
             </Head>
-            <div >
                 <Navbar />
-                <h1>Register</h1>
+                <div className="re">
+                <div class="container1" >
+                <div className="Log">
+                <div >
+                <h1 className="label">Register</h1>
                 <div><b>Token:</b> {token.substring(0, 15)}...
                 <button
                         onClick={() => { navigator.clipboard.writeText(token) }}>
@@ -96,7 +99,10 @@ export default function Register({ token }) {
                 <div>
                     <button onClick={register}>Register</button>
                 </div>
+                </div>
             </div>
+            </div>
+            </div>  
         </Layout>
     )
 }

@@ -29,24 +29,26 @@ export default function Login({ token }) {
   };
 
   const loginForm = () => (
+    
     <div className={styles.gridContainer}>
 
-      <div><b>Username:</b></div>
-      <div>
-        <input type="text" name="username"  placeholder="username"  onChange={(e) => setUsername(e.target.value)} />
-      </div>
+      <center> <div><b>Username:</b></div> </center> 
+      <center> <div>
+       <input type="text" name="username"  placeholder="username"  onChange={(e) => setUsername(e.target.value)} />
+      </div>   </center> 
 
-      <div><b>Password:</b></div>
-      <div>
+      <center>  <div><b>Password:</b></div> </center> 
+      <center> <div>
         <input type="password" name="password" placeholder="password" onChange={(e) => setPassword(e.target.value)} />
-      </div> 
+      </div> </center> 
 
-      <div className="flex items-center">
+      <center>  <div className="flex items-center">
         <input id="remember_me" name="remember_me" type="checkbox" onClick={rememberMe} />
-      </div> 
+      </div> </center> 
 
-      <div><label>Remember Me</label></div>
+      <center>  <div><label>Remember Me</label></div> </center> 
     </div>
+     
   );
 
   const copyText = () => {
@@ -54,13 +56,14 @@ export default function Login({ token }) {
   };
 
   return (
-    <Layout>
+     
+   <Layout>
       <Head>
         <title>Login Page</title>
       </Head>
       <div >
         <Navbar />
-        <h1>Login</h1>
+        <center><h1>Login</h1></center>
         <div>
           <b>Token:</b> {token.substring(0, 15)}...
           <button onClick={copyText}> Copy token </button>
@@ -70,7 +73,7 @@ export default function Login({ token }) {
         <br />
         {loginForm()}
         <div>
-          <button onClick={login}>Login</button>
+        <center> <button onClick={login}>Login</button></center>
         </div>
       </div>
     </Layout>

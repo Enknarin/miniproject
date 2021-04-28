@@ -25,10 +25,15 @@ export default function Logout({ token }) {
             <Head>
                 <title>User profile</title>
             </Head>
-            <div >
-                <Navbar />
-                <h1>Logout</h1>
-                <div>
+            <Navbar />
+            <div className="lu">
+            <div className="lu1">
+                <h1 >Logout
+                    <br/>
+                    ขอบคุณสำหรับการเข้าชมนะครับ
+                </h1>
+                
+               
                     <h2> {status}  </h2>
                 </div>
             </div>

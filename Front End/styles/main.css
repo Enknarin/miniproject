@@ -51,6 +51,7 @@ a.active,a:hover{
     color:#8FBC8F	;
     text-align: center;
     margin-top: 10px;
+    
 
 }
 .cat{
@@ -62,6 +63,117 @@ display: block;
 margin-left: 600px;
 margin-right: 60px;
 font-size: 16px;
+}
+.Log{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.cc{
+    color:#00FF00;
+}
+.b{
+    background:url('http://static1.squarespace.com/static/5ec67e952aa5c333297be103/5ecd27b90d634c6b2abe1fb8/5f2ec5729fa85c6a22c271a7/1596901195042/The-Kitten-Checklist-1.png?format=1500w') no-repeat; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh 
+}
+.container{
+    position: relative;
+    width: 450px;
+    height: auto;
+    background: #f8fa81;
+    border-radius: 5px;
+    margin-right: 1300px;
 
+}
+.label{
+    padding: 20px 130 px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+.login_form{
+    padding: 5px;
+}
+.login_form input{
+    height:45px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    margin-top: 2px;
+}
+.login_form .font2{
+margin-top: 30px;
+}
+.k{
+    margin: 45px 0 30px 0;
+    height: 100;
+    width: 365;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    outline: none;
+    cursor:pointer;
+    font-weight: bold;
+    background: #1A237E;
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+
+}
+.container1{
+    position: relative;
+    margin-top: 10px;
+    width: 500px;
+    height: auto;
+    background: #75d16d;
+    border-radius: 5px;
+    margin-right: 1300px;
+}
+.re{
+    background: #006699 url('https://timesofindia.indiatimes.com/photo/67586673.cms?fbclid=IwAR0f4r5wH286oylXuzNnDCeO2khxsOf4CT4m6hhJ5rDSaH-HsbhXBbLvAqY') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+
+}
+.lu{
+    background: url('https://www.catdeva.com/data/wb/pic/l/640400000063.jpeg') no-repeat;
+    -webkit-background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    opacity:0.8;
+
+}
+.lu1{
+    text-align: center;
+    color: #13025c;
+    margin-top: 200px;
+}
+.in{
+    background:#10b98f ;
+    -webkit-background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    opacity:0.8;
 
 }
