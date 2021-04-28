@@ -84,8 +84,8 @@ font-size: 16px;
 }
 .container{
     position: relative;
-    width: 450px;
-    height: auto;
+    width: 550px;
+    height: 700px;
     background: #f8fa81;
     border-radius: 5px;
     margin-right: 1300px;
@@ -93,21 +93,23 @@ font-size: 16px;
 }
 .label{
     padding: 20px 130 px;
-    font-size: 35px;
+    font-size: 70px;
     font-weight: bold;
     color: #130f40;
 }
 .login_form{
-    padding: 5px;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+
 }
 .login_form input{
     height:45px;
-    width: 350px;
+    width: 400px;
     padding: 0 5px;
     font-size: 18px;
     outline: none;
     border: 1px solid silver;
-    margin-top: 2px;
 }
 .login_form .font2{
 margin-top: 30px;
@@ -124,19 +126,22 @@ margin-top: 30px;
     background: #1A237E;
     border-radius: 3px;
     border: 1px solid #3949AB;
+    align-items: center;
+    margin-right: 70px;
+
 
 }
 .container1{
     position: relative;
     margin-top: 10px;
-    width: 500px;
-    height: auto;
-    background: #75d16d;
+    width: 550px;
+    height: 700px;
+    background: #3bb13b;
     border-radius: 5px;
-    margin-right: 1300px;
+    margin-right: 1800px;
 }
 .re{
-    background: #006699 url('https://timesofindia.indiatimes.com/photo/67586673.cms?fbclid=IwAR0f4r5wH286oylXuzNnDCeO2khxsOf4CT4m6hhJ5rDSaH-HsbhXBbLvAqY') no-repeat;
+    background: url('https://timesofindia.indiatimes.com/photo/67586673.cms?fbclid=IwAR0f4r5wH286oylXuzNnDCeO2khxsOf4CT4m6hhJ5rDSaH-HsbhXBbLvAqY') no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 100vw;
@@ -176,4 +181,92 @@ margin-top: 30px;
     display: flex;
     opacity:0.8;
 
+}
+.box{
+    font-size: 50px;
+}
+.copy{
+    height:45px;
+    width: 250px;
+    font-size: 25px;
+}
+.bulog1{
+
+    background-color: antiquewhite;
+    height:45px;
+    width: 250px;
+    color: blue;
+    padding: 20px 130 px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+.bure{
+    background-color: antiquewhite;
+    height:45px;
+    width: 250px;
+    color: blue;
+    padding: 20px 130 px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.st{
+    font-size: 25px;
+}
+
+
+.ca{
+    align-items: center;
+    justify-content: center;
+    margin-right: 275px;
+}
+.ce1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(197, 71, 144);
+}
+.ce2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(57, 88, 156);
+    margin-right: 250px;
+    margin-top: 20px;
+}
+.ce3{
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(141, 48, 76);
+    margin-right: 250px;
+}
+.ce4{
+    background-color:#FFF8DC;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.s1{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(197, 71, 144);
+    justify-content: center;
 }

@@ -9,14 +9,16 @@ export default function Home({ token }) {
 
   return (
     <Layout>
+        <Navbar />
+      <div className="ce4">
     <Head>
         <title>Cat Breed Profile</title>
     </Head>
     <div>
-        <Navbar />
-        <center> <h1 className="head">Siamese Cat: Cat Breed Profile</h1></center> 
+      
+        <center> <h1 className="s1">Siamese Cat: Cat Breed Profile</h1></center> 
         <div className="cat">
-        <center> <img src="https://www.thesprucepets.com/thmb/hJTzh-kEZuUMdmQPeBAgBSEMLk4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SiameseChocolatePointCat_3867x2578-56b65ca43df78c0b1359692d.jpg" alt="Lamp" width="500" height="850"></img>
+        <center> <img src="https://www.thesprucepets.com/thmb/hJTzh-kEZuUMdmQPeBAgBSEMLk4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SiameseChocolatePointCat_3867x2578-56b65ca43df78c0b1359692d.jpg" alt="Lamp" width="1000" height="850"></img>
         </center> <h5 className="message1">The Siamese cat is medium-sized, svelte, and refined with long, tapering lines. It is lithe and muscular. The most striking characteristic of the Siamese cat is its "points," which are darker color patterns on the ears, face (mask), tail, legs, and feet. Siamese cats, fondly known as "meezers," are popular among those who want a pedigreed pet. Officially recognized by the Cat Fancier's Association in 1906, the Siamese is one of the original breeds of pedigreed cats.
           <br/>
            <br/>
@@ -34,9 +36,13 @@ export default function Home({ token }) {
             ▪ LIFE EXPECTANCY: 8 to 12 years
             
             </h5>
+            <div className="button">
+                <a href="cat.js">Contact</a>
+                <input type="button" value="Back" onClick="./cat.js"></input>
+        </div>
         </div>
         
-        
+        </div>
     </div>
 </Layout>
   )

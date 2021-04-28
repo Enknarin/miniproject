@@ -8,32 +8,33 @@ import Link from 'next/link'
 export default function Home({ token }) {
 
   return (
-    <Layout>
+    <Layout >
+       <Navbar />
+      <div  className="ce4">
     <Head>
         <title>Cat Page</title>
     </Head>
     <div>
-        <Navbar />
-        <h1 className="head">Popular Cat</h1>
+        <h1 className="ce1">Popular Cat</h1>
         <div className="cat">
-        <center>  <img src="https://i.pinimg.com/originals/3d/bf/88/3dbf885dfdf81b4082a21996ec9cb0fa.jpg" alt="Lamp" width="500" height="850"></img>    </center>
-        <h2 className="message1">4 Most Popular Cat Breeds for Feline Lovers
-          <br/>
+        <center className="ca">  <img src="https://i.pinimg.com/originals/3d/bf/88/3dbf885dfdf81b4082a21996ec9cb0fa.jpg" alt="Lamp" width="500" height="850" ></img>    </center>
+        <h2 className="ce2">4 Most Popular Cat Breeds for Feline Lovers </h2>
+        <div className="ce3"> 
            <br/>
            ▪<Link href="/Siamese"><a> Siamese </a></Link> 
-           
-           
            <br/>
            ▪<Link href="/Persian"><a> Persian </a></Link> 
-           
             <br/>
             ▪<Link href="/MaineCoon"><a> Maine Coon </a></Link> 
-            
             <br/>
-            ▪<Link href="/Ragdoll"><a> Ragdoll </a></Link> 
-           
-            
-            </h2>
+            ▪<Link href="/Ragdoll"><a> Ragdoll </a></Link>     
+        </div>
+        <div className="button">
+         <a href="./cat.js">Contact</a> 
+         <input type="button" value="Back" onClick="/.catja"></input>
+        </div>
+       
+        </div>
         </div>
         
         
