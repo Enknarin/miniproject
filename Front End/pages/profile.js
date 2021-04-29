@@ -37,8 +37,9 @@ const Profile1 = ({ token }) => {
             </Head>
             <div >
                 <Navbar />
-                <h1>User profile</h1>
-                
+                <center className="lu2"> User profile </center>
+                <center> <img src="https://pbs.twimg.com/profile_images/1337340175567884290/DQvV557K_400x400.jpg" 
+        alt="Lamp" width="500" height="450"></img></center>
                 <div>
                     <b>Token:</b> {token.substring(0, 15)}... <br /><br />
                     This route is protected by token, user is required to login first.

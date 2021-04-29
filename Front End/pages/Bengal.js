@@ -8,20 +8,24 @@ import styles from '../styles/Home.module.css'
 export default function Home({ token }) {
 
   return (
-    <Layout>
+<Layout>
        <Navbar />
     <Head>
         <title>Cat Breed Profile</title>
     </Head>
-    <div className="ce4">
-    <div>
+    <div className="cat-page">
+  
        
-        <center> <h1 className="s1">Bengal Cat: Cat Breed Profile</h1></center> 
-        <div className="cat">
-        <center> <img src="
+       <h1 className="texthead-title">Bengal Cat: Cat Breed Profile</h1>
+    <div>
+
+       <img src="
         https://www.thailandexhibition.com/images/Admin-talks/articles/5f0bde906b044/images/%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%80%E0%B8%9A%E0%B8%87%E0%B8%81%E0%B8%AD%E0%B8%A5-12.jpg"
-         alt="Lamp" width="1500" height="850"></img></center> 
-        <h5 className="message1">Bengals are wild-looking cats—literally. Their markings make them look more like they belong in the jungle rather than in your home, but they are domesticated. They are talkative and require a lot of exercise. They come in many colors with patterns like spots and rosettes. Their name comes from the Asian leopard cat’s taxonomic name, Prionailurus bengalensis bengalensis. Bengals were initially bred from domestic cats and a wildcat. They also get their beautiful patterns from this wildcat.
+         alt="Lamp" width="1500" height="850"></img>
+    </div>
+    <div className="tex1">
+
+        <h5 >Bengals are wild-looking cats—literally. Their markings make them look more like they belong in the jungle rather than in your home, but they are domesticated. They are talkative and require a lot of exercise. They come in many colors with patterns like spots and rosettes. Their name comes from the Asian leopard cat’s taxonomic name, Prionailurus bengalensis bengalensis. Bengals were initially bred from domestic cats and a wildcat. They also get their beautiful patterns from this wildcat.
           <br/>
            <br/>
            ▪ WEIGHT: 8 to 15 pounds
@@ -36,10 +40,15 @@ export default function Home({ token }) {
             ▪ LIFE EXPECTANCY: 10 to 16 years
             
             </h5>
-        </div>
+    </div>
+            <div className="bt-back">
+          
+          <a href="/cat">Back</a>
+  </div>
+      
         </div>
         
-    </div>
+   
 </Layout>
   )
 }

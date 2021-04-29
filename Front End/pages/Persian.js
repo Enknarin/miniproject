@@ -10,17 +10,21 @@ export default function Home({ token }) {
   return (
     <Layout>
       <Navbar />
-      <div className="ce4">
+  
     <Head>
         <title>Cat Breed Profile</title>
     </Head>
-    <div>
+    <div className="cat-page">
         
-        <center> <h1 className="s1">Persian Cat: Cat Breed Profile</h1> </center> 
-        <div className="cat">
-        <center> <img src="https://www.thailandexhibition.com/images/Admin-talks/articles/5f0bde906b044/images/%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2-1-1.jpg" 
+         <h1 className="texthead-title">Persian Cat: Cat Breed Profile</h1>
+     <div>
+
+         <img src="https://www.thailandexhibition.com/images/Admin-talks/articles/5f0bde906b044/images/%E0%B9%81%E0%B8%A1%E0%B8%A7%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2-1-1.jpg" 
         alt="Lamp" width="1500" height="850"></img>
-        </center> <h5 className="message1">The dignified Persian feline breed is characterized by its long coat and sweet temperament, though Persians tend to limit their affections to just those humans they are closest to. Among purebred cats, Persians are revered for their glamorous good looks and calm demeanor.
+     </div>
+     <div className="tex1">
+      
+       <h5>The dignified Persian feline breed is characterized by its long coat and sweet temperament, though Persians tend to limit their affections to just those humans they are closest to. Among purebred cats, Persians are revered for their glamorous good looks and calm demeanor.
 
 Although the exact history of the Asiatic breed is murky, the breed has become one of the most popular among purebred cat lovers in North America, both for showing purposes and for their tendency to be calm and loving pets. Persians are natural cuddlers and lap cats with relatively undemanding personalities—together, these traits have perpetuated their popularity and made them a mainstay of the show circuit and the home.
           <br/>
@@ -39,10 +43,18 @@ Although the exact history of the Asiatic breed is murky, the breed has become o
             ▪ LIFE EXPECTANCY: 10 to 17 years
             
             </h5>
-        </div>
+       
+     
+     </div>
+            <div className="bt-back">
+          
+          <a href="/cat">Back</a>
+          
+  </div>
+       
         </div>
         
-    </div>
+   
 </Layout>
   )
 }

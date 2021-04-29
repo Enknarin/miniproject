@@ -22,11 +22,11 @@ router.use(cors({ origin: 'http://localhost:3000', credentials: true }))
 router.use(express.json())
 router.use(express.urlencoded({ extended: false }))
 
-let students = {
+let cat = {
     list: [
-        { "id": 4010341, "name": "Warodom", "surname": "Werapun","major": "CoE","gpa": 3.3 },
-        { "id": 4010342, "name": "John", "surname": "Lennon","major": "SE","gpa": 2.87 },
-        { "id": 5935512090, "name": "Aknarin", "surname": "Thipmud","major": "CoE","gpa": 2.32 }]
+        { "id": 4010341, "name": "Warodom", "catBreeds": "Siamese","catn": "CoE","weight": 3.3 },
+        { "id": 4010342, "name": "John", "catBreeds": "Siamese","catn": "SE","weight": 2.87 },
+        { "id": 5935512090, "name": "Aknarin", "catBreeds": "Siamese","catn": "CoE","weight": 2.32 }]
  }
 
 
@@ -109,40 +109,40 @@ router.get('/foo',
         res.send('Foo');
     });
 
-router.route('/students')
-    .get((req, res) => res.json(students))
+router.route('/cat')
+    .get((req, res) => res.json(cat))
     .post((req, res) => {
      console.log(req.body)
-     let newStudent = {}
-     newStudent.id = (students.list.length)?students.list[students.list.length - 1].id + 1:1
-     newStudent.name = req.body.name
-     newStudent.surname = req.body.surname
-     newStudent.major = req.body.major
-     newStudent.gpa = req.body.gpa
-     students = { "list": [...students.list, newStudent] }
-     res.json(students)
+     let newcat = {}
+     newcat.id = (cat.list.length)?cat.list[cat.list.length - 1].id + 1:1
+     newcat.name = req.body.name
+     newcat.catBreeds = req.body.catBreeds
+     newcat.catn = req.body.catn
+     newcat.weight = req.body.weight
+     cat = { "list": [...cat.list, newcat] }
+     res.json(cat)
      })
  
- router.route('/students/:student_id')
+ router.route('/cat/:cat_id')
     .get((req, res) => {
-        const student_id = req.params.student_id
-        const id = students.list.findIndex(item => +item.id === +student_id)
-        res.json(students.list[id])
+        const cat_id = req.params.cat_id
+        const id = cat.list.findIndex(item => +item.id === +cat_id)
+        res.json(cat.list[id])
     })
     .put((req, res) => {
-     const student_id = req.params.student_id
-     const id = students.list.findIndex(item => +item.id === +student_id)
-     students.list[id].name = req.body.name
-     students.list[id].surname = req.body.surname
-     students.list[id].major = req.body.major
-     students.list[id].gpa = req.body.gpa
-     res.json(students.list[id])
+     const cat_id = req.params.cat_id
+     const id = cat.list.findIndex(item => +item.id === +cat_id)
+     cat.list[id].name = req.body.name
+     cat.list[id].catBreeds = req.body.catBreeds
+     cat.list[id].catn = req.body.catn
+     cat.list[id].weight = req.body.weight
+     res.json(cat.list[id])
      })
      .delete((req, res) => {
-     const student_id = req.params.student_id
-     console.log('studentId: ',student_id)
-     students.list = students.list.filter(item => +item.id !== +student_id)
-     res.json(students.list)
+     const cat_id = req.params.cat_id
+     console.log('catId: ',cat_id)
+     cat.list = cat.list.filter(item => +item.id !== +cat_id)
+     res.json(cat.list)
      })
 
 router.get('/editProfile',
@@ -154,6 +154,13 @@ router.get('/editProfile',
 router.get('/', (req, res, next) => {
     res.send('Respond without authentication');
 });
+
+router.route('/mydiary')
+    .get((req, res) => res.json(cat))
+
+
+
+
 
 // Error Handler
 app.use((err, req, res, next) => {

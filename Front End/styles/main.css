@@ -77,20 +77,24 @@ font-size: 16px;
     background:url('http://static1.squarespace.com/static/5ec67e952aa5c333297be103/5ecd27b90d634c6b2abe1fb8/5f2ec5729fa85c6a22c271a7/1596901195042/The-Kitten-Checklist-1.png?format=1500w') no-repeat; 
     align-items: center;
     justify-content: center;
-    display: flex;
     -webkit-background-size: cover;
     background-size: cover;
-    width: 100vw;
     height: 100vh 
 }
 .b1{
     background:url('https://shortrecap.co/wp-content/uploads/2020/05/Catcover_web.jpg') no-repeat; 
     align-items: center;
     justify-content: center;
-    display: flex;
     -webkit-background-size: cover;
     background-size: cover;
-    width: 100vw;
+    height: 100vh 
+}
+.b2{
+    background:url('https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg') no-repeat; 
+    align-items: center;
+    justify-content: center;
+    -webkit-background-size: cover;
+    background-size: cover;
     height: 100vh 
 }
 .container{
@@ -100,6 +104,8 @@ font-size: 16px;
     background: #f8fa81;
     border-radius: 5px;
     margin-right: 1300px;
+    margin-top: 60px;
+    margin-left: 20px;
 
 }
 .label{
@@ -150,31 +156,27 @@ margin-top: 30px;
     background: #3bb13b;
     border-radius: 5px;
     margin-right: 1800px;
+    margin-left: 20px;
+    margin-top: 60px;
 }
 .re{
     background: url('https://timesofindia.indiatimes.com/photo/67586673.cms?fbclid=IwAR0f4r5wH286oylXuzNnDCeO2khxsOf4CT4m6hhJ5rDSaH-HsbhXBbLvAqY') no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
     align-items: center;
     background-size: cover;
     justify-content: center;
-    display: flex;
     font-family: sans-serif;
-
 }
 .lu{
     background: url('https://img.kapook.com/u/2016/pree/23-6-59/q4_7.jpg') no-repeat;
     -webkit-background-size: cover;
-    width: 100vw;
     height: 100vh;
     align-items: center;
     background-size: cover;
     justify-content: center;
-    display: flex;
     opacity:0.8;
-
 }
 .lu1{
   
@@ -251,6 +253,7 @@ margin-top: 30px;
     text-align: center;
     font-size: 60px;
     color: rgb(197, 71, 144);
+    margin-bottom: 20px;
 }
 .ce2{
     text-align: center;
@@ -278,7 +281,10 @@ margin-top: 30px;
     display: flex;
     font-family: sans-serif;
 }
-.button {
+.cat-page {
+    text-align: center;
+}
+.bt-back {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -290,9 +296,46 @@ margin-top: 30px;
     margin: 4px 2px;
     cursor: pointer;
 }
-.s1{
+.bt-back a:hover {
+ 
+    border: none;
+}
+.link-spec {
+    margin-bottom: 30px;
+}
+.link-page {
+    color: brown;
+    font-size: 16px;
+    font-weight: bold;
+}
+.link-page:hover {
+    border: none;
+    color: rgb(255, 86, 86);
+}
+.texthead-title{
     text-align: center;
     font-size: 60px;
     color: rgb(197, 71, 144);
     justify-content: center;
 }
+.tex{
+    color: #3bb13b;
+}
+.tex1{
+ margin-left: 150px;
+ margin-right: 150px;
+ margin-top: 15px;
+ font-size: 25px;
+}
+.tex2{
+    margin-left: 550px;
+    margin-right: 850px;
+    margin-top: 15px;
+    font-size: 30px;
+   }
+   .tex2{
+    margin-left: 550px;
+    margin-right: 850px;
+    
+    font-size: 40px;
+   }
