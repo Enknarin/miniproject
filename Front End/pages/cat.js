@@ -28,6 +28,9 @@ export default function Home({ token }) {
             ▪<Link href="/MaineCoon"><a> Maine Coon </a></Link> 
             <br/>
             ▪<Link href="/Bengal"><a> Bengal </a></Link>     
+            <br/>
+            ▪<Link href="/Bengal"><a> Bengal </a></Link>  
+
         </div>
         <div className="button">
          <a href="./cat.js">Contact</a> 
