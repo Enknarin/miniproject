@@ -24,9 +24,9 @@ router.use(express.urlencoded({ extended: false }))
 
 let cat = {
     list: [
-        { "id": 4010341, "name": "Warodom", "catBreeds": "Siamese","catn": "CoE","weight": 3.3 },
-        { "id": 4010342, "name": "John", "catBreeds": "Siamese","catn": "SE","weight": 2.87 },
-        { "id": 5935512090, "name": "Aknarin", "catBreeds": "Siamese","catn": "CoE","weight": 2.32 }]
+        { "id": 4010341, "name": "Warodom", "catBreeds": "Siamese","catn": "Mocca","weight": 3.3 },
+        { "id": 4010342, "name": "John", "catBreeds": "Siamese","catn": "Latte","weight": 2.87 },
+        { "id": 5935512090, "name": "Aknarin", "catBreeds": "Siamese","catn": "Murphy","weight": 2.32 }]
  }
 
 

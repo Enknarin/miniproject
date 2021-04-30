@@ -44,8 +44,8 @@ const cat2 = ({token}) => {
         return (
           <div className={styles.listItem} key={index}>
             <div><b>Name:</b> {cat.name}</div>
-            <div><b>catBreeds:</b> {cat.catBreeds}</div>
-             <div> <b>catn:</b> {cat.catn} </div>
+            <div><b>Cat Breeds:</b> {cat.catBreeds}</div>
+             <div> <b>Cat name:</b> {cat.catn} </div>
             <div><b>weight:</b> {cat.weight}</div>
             <br/>
             
@@ -62,10 +62,12 @@ const cat2 = ({token}) => {
             <Head>
                 <title>My cat</title>
             </Head>
-            <div >
+            <div  className="b3"> 
+            
                 <Navbar />
-                <div>
-                    <h1>---Diary---</h1>
+
+                <div className="tex2">
+                  <center>   <h1>Group member Diary </h1>    </center>
                     {showcats()}
                     <div><Link href="/editProfile"><a><b>Edit</b> </a></Link> </div>
                 </div>

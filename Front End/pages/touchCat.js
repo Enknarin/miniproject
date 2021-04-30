@@ -37,23 +37,24 @@ export default function Home({ token }) {
                 <title>MEOW-CLUB</title>
             </Head>
             <Navbar />
-
-            <div >
+             
+            <div className="b4" >
              
 
                 <div className="head">MEOW-CLUB</div>
+                <div className="tex2">    
                 <center> <img src="https://pbs.twimg.com/profile_images/1337340175567884290/DQvV557K_400x400.jpg" 
-        alt="Lamp" width="500" height="450"  onClick={cate_facts}></img></center>
+        alt="Lamp" width="600" height="550"  onClick={cate_facts}></img></center>
               <center> <div>Touch Cat</div></center> 
 
-              <div>
+              <div className="tex1">
                  
              
               <br/><br/>
                     {JSON.stringify(cat_value)}
                 </div>
 
-            </div>
+            </div></div>
         </Layout>
 
 

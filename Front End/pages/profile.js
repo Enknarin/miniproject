@@ -37,18 +37,22 @@ const Profile1 = ({ token }) => {
             </Head>
             <div >
                 <Navbar />
+            <div className="b4" >
+
                 <center className="lu2"> User profile </center>
-                <center> <img src="https://pbs.twimg.com/profile_images/1337340175567884290/DQvV557K_400x400.jpg" 
+                <center> <img src="http://pngimg.com/uploads/cat/cat_PNG50491.png" 
         alt="Lamp" width="500" height="450"></img></center>
-                <div>
+                
+                <div className = "text1">
                     <b>Token:</b> {token.substring(0, 15)}... <br /><br />
-                    This route is protected by token, user is required to login first.
+                           While cats are generally low maintenance pets compared to dogs, they still require a lot of care and attention.
                     <br/>
-                    Otherwise, it will be redirect to Login page
+                    they still require a lot of care and attention.
                     <br/><br/>
                     {JSON.stringify(user)}
                 </div>
             </div>
+            </div> 
         </Layout>
     )
 }

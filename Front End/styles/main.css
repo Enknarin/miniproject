@@ -97,6 +97,22 @@ font-size: 16px;
     background-size: cover;
     height: 100vh 
 }
+.b3{
+    background:url('https://en.mthai.com/app/uploads/2016/09/cat.png') no-repeat; 
+    align-items: center;
+    justify-content: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh 
+}
+.b4{
+    background:url('https://s359.kapook.com/rq/500/auto/50/pagebuilder/cc1de7b0-6111-4b4b-bc68-8f6b4df6ba1c.gif') no-repeat; 
+    align-items: center;
+    justify-content: 80px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh 
+}
 .container{
     position: relative;
     width: 550px;
@@ -343,7 +359,7 @@ margin-top: 30px;
     margin-top: 15px;
     font-size: 30px;
    }
-   .tex2{
+   .tex3{
     margin-left: 550px;
     margin-right: 850px;
     
